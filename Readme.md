@@ -41,7 +41,7 @@ Installation
 
     bash
 
-    git clone https://github.com/your-username/google-front-page-clone.git
+    git clone https://github.com/DilankaSandeep/googleclone.git
 
     Alternatively, you can download the ZIP archive of the project and extract it to your preferred location on your computer.
 
@@ -57,7 +57,7 @@ Usage
 
 GitHub Pages
 
-This project is hosted on GitHub Pages. You can access it by clicking here.
+This project is hosted on GitHub Pages. You can access it by clicking here.( https://dilankasandeep.github.io/googleclone/)
 License
 
 This project is licensed under the MIT License. Please be aware that while the code is open-source, all product logos, designs, and trademarks remain the property of their respective owners. Use this project for educational and non-commercial purposes only.
