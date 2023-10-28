@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Google Homepage</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="CSS/styleSheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav_bar">
+                <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
+                <li class="nav-links"><a href="#">Images</a></li>
+                <li class="nav-links"><a href="#"><ion-icon name="apps-outline"></ion-icon></a></ion-icon></li>
+                <li id="sign_in"><a href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="google">
+         <img src="https://www.google.lk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" />
+        </div>
+
+        <div class="form">
+            <form method="get" action="https://www.google.lk/search?">
+                <!-- <input type="text" title="Search" id="search-bar" placeholder="Search Google or type URL"> -->
+                <div id="search-div" >
+                    <div id="main-search-div" >
+                      <span><ion-icon class="icon" name="search-outline"></ion-icon></span>
+                      <span id="inputspan"><input id="searchbar" type="text" name="q"></span>
+                      <span><ion-icon id="clear-icon" class="icon" title="Clear" name="close"></ion-icon></span>
+                      <span><ion-icon id="search-by-image" class="icon" title="Search by image" name="image"></ion-icon></span>
+                    </div>
+                  </div>
+                <div id="button">
+                    <input class="button" type="submit" value="Google Search" id="google_search">
+                    <input class="button" type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+                </div>
+
+            </form>
+        </div>
+        <div id="languages"><span>Google offered in: <span class="lan">සිංහල</span> <span
+                    class="lan">தமிழ்</span></span>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-left country">Sri Lanka</div>
+        <div id="footerlinks">
+            <ul id="leftlinks" class="lilinks">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search Works</a></li>
+            </ul>
+            <ul id="rightlinks" class="lilinks">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
